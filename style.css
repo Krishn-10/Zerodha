@@ -18,7 +18,8 @@ body{
   justify-content: center;
   /* background-color: aliceblue; */
   /* border: 1px solid black; */
-  box-shadow: 0.3px 0.3px 2px grey;
+  box-shadow: 0.3px 0.3px 4px grey;
+  z-index: 10;
 }
 
 .container{
@@ -29,6 +30,8 @@ body{
   justify-content: space-between;
   /* border: 1px solid black; */
   align-items: center;
+  z-index: 10;
+
 }
 
 .logo-container{
@@ -65,4 +68,18 @@ a{
 }
 .nav-menu-container{
   position: absolute;
+  height: 60%;
+  width: 55%;
+  /* border: 1px solid black; */
+  box-shadow: 0.5px 0.5px 4px grey;
+  z-index: 100;
+  border-radius: 0.3rem;
+  top: 4.4rem;
+  right: 4.7rem;
+  background-color: white;
+  /* visibility:hidden; */
+}
+.menu-header{
+  height: 40%;
+  border: 0.5px solid black;
 }
