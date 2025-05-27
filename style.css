@@ -4,6 +4,9 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+li{
+  list-style-type: none;
+}
 body{
   display: flex;
   justify-content: center;
@@ -55,7 +58,7 @@ body{
   opacity: 0.6;
   /* font-weight: ; */
 }
-.field>a:hover{
+.field>a:hover , .utilities>ul>li>a:hover, .updates>ul>li>a:hover{
   color: blue; 
 }
 
@@ -82,4 +85,34 @@ a{
 .menu-header{
   height: 40%;
   border: 0.5px solid black;
+  display: flex;
+
+}
+.menu-header-item{
+  width: 25%;
+  border: 1px solid black;
+}
+.menu-footer{
+  height: 60%;
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+}
+.menu-footer-item1{
+  height: 60%;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+.utilities, .updates{
+  width: 45%;
+  height: 100%;
+  border: 1px solid black;
+  /* text-align: ; */
+}
+.utilities h3{
+  text-align: center;
+  margin: ;
 }
