@@ -4,6 +4,9 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+.parent{
+  width: 100%;
+}
 li{
   list-style-type: none;
 }
@@ -21,7 +24,7 @@ body{
   justify-content: center;
   /* background-color: aliceblue; */
   /* border: 1px solid black; */
-  box-shadow: 0.3px 0.3px 4px grey;
+  box-shadow: 0.3px 0.3px 4px rgb(227, 227, 227);
   z-index: 10;
 }
 
@@ -59,7 +62,7 @@ body{
   /* opacity: 0.6; */
   /* font-weight: ; */
 }
-.field{
+.field>a{
   opacity: 0.6;
 }
 
@@ -80,7 +83,7 @@ a{
   height: 60%;
   min-width: 700px;
   /* border: 1px solid black; */
-  box-shadow: 0.5px 0.5px 4px grey;
+  box-shadow: 0.3px 0.3px 10px rgb(209, 208, 208);
   z-index: 100;
   border-radius: 0.3rem;
   top: 4.4rem;
@@ -88,9 +91,9 @@ a{
   background-color: white;
   visibility:hidden;
 }
-.fa-solid:click .nav-menu-container{
+/* .fa-solid:click .nav-menu-container{
   visibility: visible;
-}
+} */
 .menu-header{
   height: 40%;
   display: flex;
@@ -215,18 +218,54 @@ a{
 
 /* landing section */
 .parent-content{
-  margin-top: 10rem;
+  margin-top: 3rem;
   display: block;
+  z-index: 1;
 }
 .homepage{
-  padding: 3rem;
+  /* padding: 1rem; */
   border: 1px solid black;
   display: block;
 }
 .container-2{
   border: 1px solid pink;
-  width: 1100px;
+  /* width: 1100px; */
   max-width: 100%;
   display: block;
   /* position: absolute; */
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.container-2 img{
+  max-height: 45vh;
+}
+.container-2 h1{
+  margin-top: 3.5rem;
+  font-size: 3rem;
+  display: block;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.container-2 p{
+  margin-top: 1.5rem;
+  font-size: large;
+}
+
+.container-2 .button{
+  display: inline-block;
+  width: 12rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 500;
+  background-color: #387ed1;
+  margin-top: 2.5rem;
+  font-size: larger;
+  
+}
+.container-2 .button:hover{
+  background-color: #333;
 }
