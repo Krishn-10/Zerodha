@@ -14,7 +14,7 @@ body{
   display: flex;
   justify-content: center;
   min-width: 350px;
-
+  /* line-height: 1.7; */
 }
 .nav{
   width: 100%;
@@ -26,6 +26,7 @@ body{
   /* border: 1px solid black; */
   box-shadow: 0.3px 0.3px 4px rgb(227, 227, 227);
   z-index: 10;
+  position: fixed;
 }
 
 .container{
@@ -218,17 +219,17 @@ a{
 
 /* landing section */
 .parent-content{
-  margin-top: 3rem;
+  margin-top: 8rem;
   display: block;
   z-index: 1;
 }
 .homepage{
   /* padding: 1rem; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
 }
 .container-2{
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   /* width: 1100px; */
   max-width: 100%;
   display: block;
@@ -268,4 +269,100 @@ a{
 }
 .container-2 .button:hover{
   background-color: #333;
+}
+.ecosystem{
+  margin: 4rem 1rem 2rem 1rem;
+  padding: 0 2rem 0 2rem;
+}
+.ecosystem-container{
+  /* margin: 2rem 1rem 2rem 1rem; */
+  padding: 0 2rem 0 2rem;
+}
+.upper-ecosystem{
+  display: flex;
+  justify-content: space-between;
+}
+.upper-ecosystem-left{
+  width: 40%;
+}
+.upper-ecosystem-right{
+  text-align: center;
+  width: 55%;
+}
+.upper-ecosystem-right img{
+  max-width: 100%;
+  width: auto;
+}
+.upper-ecosystem-left h1{
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  opacity: 0.8;
+  font-weight: 500;
+}
+.why-us-section h3{
+  color: #424242;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.why-us-section p{
+  color: #666;
+  margin: 5px 0 2rem 0;
+  line-height: 1.8;
+  font-weight: 400;
+}
+.why-us-section p a{
+  color:#387ed1;
+  font-weight: 450;
+}
+.why-us-section p a:hover{
+  color:#333;
+  font-weight: 450;
+}
+.upper-ecosystem-left .last-section p{
+  margin-bottom: 0;
+}
+.upper-ecosystem-right p{
+  text-align: center;
+  width: 100%;
+  margin: 1.5rem 0 15px 0;
+  line-height: 1;
+}
+.upper-ecosystem-right p a{
+  color: #387ed1;
+  font-weight: 500;
+}
+.upper-ecosystem-right p a i{
+  color: #387ed1;
+  font-size: 0.9rem;
+  margin: 0 0.2rem 0 0.2rem;
+  /* font-weight: 400; */
+}
+.demo-link{
+  margin-left: 1rem;
+}
+.product-link:hover i{
+  color: #333;
+}
+.product-link:hover{
+  color: #333;
+}
+.demo-link:hover i{
+  color: #333;
+}
+.demo-link:hover{
+  color: #333;
+}
+
+/* Press Logos */
+.lower-ecosystem{
+  width: auto;
+  max-width: 100%;
+  padding: 4.5rem;
+  text-align: center;
+}
+.lower-ecosystem img{
+  max-width: 100%;
+}
+.lower-ecosystem a:hover{
+  opacity: 0.7;
 }
